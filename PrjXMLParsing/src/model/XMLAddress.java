@@ -21,7 +21,7 @@ private static String serviceKey = "LQ9IIe7cd36qJ9zbdb%2BHrTc0mwC%2FL7A5J%2BhFEZ
    
    public static void main(String[] args) throws IOException, Exception {
       
-      String searchText = "부전";
+      String searchText = "부산";
       
       StringBuilder urlBuilder = new StringBuilder("http://openapi.epost.go.kr/postal/retrieveNewZipCdService/retrieveNewZipCdService/getNewZipCdList"); /*URL*/
       urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "=" + serviceKey); /*Service Key*/
